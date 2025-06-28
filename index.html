@@ -7,98 +7,110 @@
     <link rel="stylesheet" href="style.css">
     <title>Blogzin</title>
 </head>
-<Header>
+<Header id="navegacao">
+    <h1>Blogzin</h1>
     <nav>
-        <h1>Blogzin</h1>
-        <a href="#">Home</a>
-        <a href="#">Categorias</a>
-        <a href="#">Contato</a>
-
-        <div id="linhaDeBaixo">Linha</div>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Categorias</a></li>
+            <li><a href="#">Contato</a></li>
+        </ul>
     </nav>
 
     <div class="separador">
-        <div class="line"></div>
+        <hr class="divider" />
     </div>
 </Header>
 
 <body>
     <main>
-        <div id="container">
-            <div class="image1">
-                <img src="/Clone_Blog/image/f1.jpg" alt="Barco">
-                <h2>Algum Título</h2>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam architecto ut voluptatibus, facere
-                    ipsam sunt fugiat blanditiis iure eius eligendi dolorum ex iusto voluptatem modi eaque, distinctio
-                    incidunt harum! Delectus.</p>
-                <span>Por: Gustavo Menescal</span>
-                <a href="#">Ler mais</a>
-            </div>
+        <section id="container">
+            <div class="passeiosContainer">
+                <div class="passeios">
+                    <img src="./image/f1.jpg" alt="Barco">
+                    <h2>Algum Título</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam architecto ut voluptatibus,
+                        facere
+                        ipsam sunt fugiat blanditiis iure eius eligendi dolorum ex iusto voluptatem modi eaque,
+                        distinctio
+                        incidunt harum! Delectus.</p>
+                    <span>Por: Gustavo Menescal</span>
+                    <a href="#">Ler mais</a>
 
-            <div class="image2">
-                <img src="/Clone_Blog/image/f2.jpg" alt="Cachoeira">
-                <h2>Algum Título</h2>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam architecto ut voluptatibus, facere
-                    ipsam sunt fugiat blanditiis iure eius eligendi dolorum ex iusto voluptatem modi eaque, distinctio
-                    incidunt harum! Delectus.</p>
-                <span>Por: Gustavo Menescal</span>
-                <a href="#">Ler mais</a>
-            </div>
+                    <div class="passeios">
+                        <img src="./image/f2.jpg" alt="Cachoeira">
+                        <h2>Algum Título</h2>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam architecto ut
+                            voluptatibus, facere
+                            ipsam sunt fugiat blanditiis iure eius eligendi dolorum ex iusto voluptatem modi eaque,
+                            distinctio
+                            incidunt harum! Delectus.</p>
+                        <span>Por: Gustavo Menescal</span>
+                        <a href="#">Ler mais</a>
+                    </div>
 
-            <div class="image3">
-                <img src="/Clone_Blog/image/f3.jpg" alt="Balão">
-                <h2>Algum Título</h2>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam architecto ut voluptatibus, facere
-                    ipsam sunt fugiat blanditiis iure eius eligendi dolorum ex iusto voluptatem modi eaque, distinctio
-                    incidunt harum! Delectus.</p>
-                <span>Por: Gustavo Menescal</span>
-                <a href="#">Ler mais</a>
-            </div>
+                    <div class="passeios">
+                        <img src="./image/f3.jpg" alt="Balão">
+                        <h2>Algum Título</h2>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam architecto ut
+                            voluptatibus, facere
+                            ipsam sunt fugiat blanditiis iure eius eligendi dolorum ex iusto voluptatem modi eaque,
+                            distinctio
+                            incidunt harum! Delectus.</p>
+                        <span>Por: Gustavo Menescal</span>
+                        <a href="#">Ler mais</a>
+                    </div>
 
-            <div class="busca">
-                <span>Busca</span>
-                <form id="buscas" action="userdata.php" method="post">
-                    <input type="text" name="username" placeholder="Pesquise no blog">
-                    <a href="#">Buscar</a>
-                </form>
-            </div>
+                    <div class="passeios">
+                        <span>Busca</span>
+                        <form id="buscas" action="userdata.php" method="post">
+                            <input type="text" name="username" placeholder="Pesquise no blog">
+                            <a href="#">Buscar</a>
+                        </form>
+                    </div>
 
-            <div class="categorias">
-                <span>Categorias</span>
-                <ul>
-                    <a href="#">Paisagens</a>
-                    <a href="#">Aventura</a>
-                    <a href="#"> Viagens longas</a>
-                    <a href="#">Floresta</a>
-                    <a href="#">Cachoeira</a>
-                </ul>
-            </div>
+                    <div class="passeios">
+                        <span>Categorias</span>
+                        <ul>
+                            <a href="#">Paisagens</a>
+                            <a href="#">Aventura</a>
+                            <a href="#"> Viagens longas</a>
+                            <a href="#">Floresta</a>
+                            <a href="#">Cachoeira</a>
+                        </ul>
+                    </div>
 
-            <div id="containerTag">
-                <div>
-                    <button><a href="#">Lifestyle</a></button>
-                    <button><a href="#">Viagem</a></button>
-                    <button><a href="#">Barco</a></button>
-                    <button><a href="#">Trilha</a></button>
-                    <button><a href="#">Tirolesa</a></button>
-                    <button><a href="#">Rafting</a></button>
-                    <button><a href="#">Parapente</a></button>
+                    <div class="passeios">
+                        <div id="containerTag">
+                            <button><a href="#">Lifestyle</a></button>
+                            <button><a href="#">Viagem</a></button>
+                            <button><a href="#">Barco</a></button>
+                            <button><a href="#">Trilha</a></button>
+                            <button><a href="#">Tirolesa</a></button>
+                            <button><a href="#">Rafting</a></button>
+                            <button><a href="#">Parapente</a></button>
+                        </div>
+
+
+                    </div>
                 </div>
+
+
 
             </div>
 
             <div class="separador">
-                <div class="line"></div>
+                <hr class="divider" />
             </div>
 
-        </div>
+        </section>
     </main>
 
-    <footer>
+    <footer id="rodape">
         <h2>Blog</h2>
-          <span> Os melhores registros de aventuras</span>
-          <span> 2024 © Blogzin pra se aventurar no HTML/CSS</span>
-      
+        <span> Os melhores registros de aventuras</span>
+        <span> 2024 © Blogzin pra se aventurar no HTML/CSS</span>
+
     </footer>
 
 </body>
